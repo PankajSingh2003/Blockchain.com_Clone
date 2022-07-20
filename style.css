@@ -278,3 +278,31 @@ color: white;
 .d5{
     background-color: #FFF8F2;
 }
+
+/* Palette 5 */
+.container5{
+    background-color: #F0F2F7;
+    color: #121D33;
+    background-image: url(https://www.blockchain.com/static/img/home/home-institutional-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: 100px;
+    padding-bottom: 80px;
+    
+}
+.box5-grid1{
+   
+    margin: auto;
+    padding: 100px 0 100px 110px;
+    line-height: 1.4;
+}
+.ins{
+    background-color: #DFE3EB;
+    padding: 5px 75px 5px 20px;
+}
+
+.btn-i{
+    background-color: #677185;
+}
+
