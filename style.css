@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 .blockchainstarting
 {
     background-color:#090088;
