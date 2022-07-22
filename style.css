@@ -1,30 +1,24 @@
-body{
-    overflow-x: hidden;
-}
-.blockchainstarting
-{
-    background-color:#090088;
-    
-    color:white;
-    padding:10px;
-    text-align: center;
+.blockchainstarting{
+    display: flex; 
+     background-color:  rgb(9, 86, 191);
     position: sticky;
-    top:0;
-}
-.blockchainstartin:hover{
-    background-color: rgb(0,42,92);
+    height: 48px;
+    width: 100vw;
+    flex-wrap: wrap;
+    color: white;
+   font-weight: 500;
+   font-size: 17px;
+   text-align: center;
+    align-items: center;
+   justify-content: center;  
 } 
-
-.blockchainstarting a{ 
-color: white;
-text-decoration: none;
-}
 
 
 .style1
 {
-    padding: 5px;
-    background-color: rgb(20,18,51);
+    padding: 30px;
+    background-color: #121d33;
+    font-size: large;
    
 }
 .style1 ul{
@@ -41,32 +35,107 @@ text-decoration: none;
 
 }
 
-.p1{
-    height: 30px;
-}
-.p1 :hover
+/*Blockchain.com*/
+.p2 h4
 {
+    font-size: x-large ;
+    top: auto;
+    position: absolute;
+    right: 75%;
+    text-align: center;
+    display:inline;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+   color: white;
+
+}  
+/*These all are nav bar items*/
+/* wallet */
+.p1a{
+    height: 30px;
+    position: absolute;
+    right: 68%;
+}
+.p1a :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 10px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* exchange */
+
+.p1b{
+    height: 30px;
+    position: absolute;
+    right: 61%;
+}
+.p1b :hover
+{
+
 background-color: rgba(148, 142, 142, 0.185);
 padding: 5px;
 border-radius: 2px;
 transition-delay:2sec;
 }
-.p2 h4
-{
-    display:inline;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-   
-color: white;
 
-}  
+/* expolorer */
+.p1c{
+    height: 30px;
+    position: absolute;
+    right: 55%;
+}
+.p1c :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* institutional */
+.p1d{
+    height: 30px;
+    position: absolute;
+    right: 48%;
+}
+.p1d :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
+/* ... */
+.p1e{
+    height: 30px;
+    position: absolute;
+    right: 45%;
+}
+.p1e :hover
+{
+
+background-color: rgba(148, 142, 142, 0.185);
+padding: 5px;
+border-radius: 2px;
+transition-delay:2sec;
+}
+
 .login
 {
+    position: absolute;
+    left: 77%;
+    bottom: auto;
     color: white;
-    background-color:rgb(20,18,51);
+    background-color:#121d33;
     border:1px solid white;
     border-radius: 6px;
-    padding:3px;
+    padding:6px;
     
     
 
@@ -74,24 +143,35 @@ color: white;
 
 .signup
 {
+    position: absolute;
+    left: 83%;
+    bottom: auto;
     color: black;
     background-color: white;
     border:1px solid black;
     border-radius: 6px;
-    padding:3px;
+    padding:6px;
     
     
 
 }
-
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width:100%;
+    width: 100rem;
+    margin: auto;
+  }
 /*This for Palette 1 css*/
 
-.Palette1-container{
+.Palette1-container1{
     background-image: url(https://www.blockchain.com/static/img/home/home-hero-gradient.svg);
-    background-size:contain;
-    background height: 70%;
-    color: white !important;
     background-repeat: no-repeat;
+    background-size: contain;
+    color : white !important; 
+
 }
 
 
@@ -135,10 +215,28 @@ color: white;
 /* This is for palette 2*/
 
 .container{
-    margin: 20px 50px 80px 50px ;
+
     border-radius: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: -0.5%;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
+
+}
+
+.container1{
+    margin: 29px 59px 89px 59px ;
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -0.5%;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
 
 }
 .details{
@@ -157,29 +255,27 @@ color: white;
    position: relative;
    top: 40px;
 }
-/* box2 */
+/* Palette 2 */
 .container2{
     background-color: #F7F5FE;
-    color: #7349F2;   
+    color: #7349F2;  
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%; 
+    background-repeat: no-repeat ;
 }
-.symbol img{
-   width: 25%;
-   height: 25px;
-   margin-right: 5px;
-    position: relative;
-   top: 15px;
-}
+
 .symbol{
     display: flex;
     width: 70px;
     border-radius: 20%;
-}
-.wallet img{
-    background-color: #C1AFF6;
+
 }
 .wallet{
     padding: 5px 30px 5px 20px;
     background-color: #EFECFE;
+
 }
 .box2-grid1{
     margin: 70px 0 70px 140px;
@@ -205,10 +301,7 @@ color: white;
     background-repeat: no-repeat;
     background-size: contain;
     color : white !important;
-    background-repeat:  no-repeat;
-    margin-right: -15px;
-    margin-left: -15px;
-    background-position: left 30px top;
+
 }
 .btn-w{
     background-color: #7349F2;
@@ -220,16 +313,20 @@ color: white;
 .container3{
     background-color: #F5FAFE;
     color: #0C6CF2;
-    padding: 50px 0;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+
 }
 .box3-grid1 img{
-    width: 65%;
+    width: 75%;
   margin: 50px 0 0 120px;
 }
 .box3-grid1{
     background-image: url(https://www.blockchain.com/static/img/home/home-exchange-shapes-bg@2x.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    color : white !important; 
+    background-size: 101%;
     background-position-y: 100px;
     background-position-x: -10px;
 }
@@ -246,6 +343,10 @@ color: white;
 }
 .btn-e{
     background-color: #0C6CF2;
+    top: 8%;
+    position: relative;
+
+    
     
 }
 /* palette 3 ends here*/
@@ -256,6 +357,10 @@ color: white;
     background-color: #FFF8F2;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
 }
 .box4-grid2 img{
     width: 60%;
@@ -264,8 +369,9 @@ color: white;
 .box4-grid2{
     background-image: url(https://www.blockchain.com/static/img/home/home-explorer-shapes-bg@2x.png);
     background-repeat: no-repeat;
-    background-size: 100% 85%;
+    background-size: 101%;
     background-position-y: 100px;
+    background-position-x: -10px;
 }
 .box4-grid1{
     margin: 50px 20px 70px 140px;
@@ -281,6 +387,7 @@ color: white;
     background-color: #FFF8F2;
 }
 
+
 /* Palette 5 */
 .container5{
     background-color: #F0F2F7;
@@ -291,6 +398,10 @@ color: white;
     background-position-x: right;
     background-position-y: 100px;
     padding-bottom: 80px;
+    padding: 60px 0;
+    max-width: 108%;  
+    height: auto;  
+    left: -15%;
     
 }
 .box5-grid1{
@@ -307,4 +418,3 @@ color: white;
 .btn-i{
     background-color: #677185;
 }
-
