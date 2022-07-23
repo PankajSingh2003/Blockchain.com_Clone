@@ -488,27 +488,20 @@ body {
    }
 
 
-.last{
-    position: absolute;
-    left: 66%;
-    top: 724%;
-
-
-}
-
-.last2{
-    position: absolute;
-    left: 77%;
-    top: 731%;
-}
-
-
-.leftlast{
-    right: 87%;
-
+   .last{
+    display: flex;
+    display: inline-block;
     white-space: nowrap;
-    display: inline;
 }
+.image1last {
+    width: 35%;
+    height: 35%;
+   position: relative;;
+   bottom:15rem;
+   left: 55rem;
+}
+
+
    
 
 
