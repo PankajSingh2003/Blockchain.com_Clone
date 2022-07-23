@@ -418,3 +418,99 @@ body {
 .btn-i{
     background-color: #677185;
 }
+
+
+/* Pallette 6 */
+/* box6 */
+.niche{
+    height: 12rem;
+    background-image: url(https://www.blockchain.com/static/img/banner/banner-bg.svg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-color: #121D33;
+    color: white;
+}
+
+.niche-flex{
+    display: flex;
+    max-width: 50rem;
+    margin: auto;
+    align-items: center;
+}
+.niche-flex h1{
+    margin-top: 68px;
+}
+.btn-low{
+    background-color: white;
+    color: #0C6CF2;
+    margin: 0 0 15px 20px;
+     padding: 15px 0px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     display: inherit;
+}
+
+
+/* footer */
+.footer{
+    max-width: 75rem;
+    margin: auto;
+    margin: 7rem auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 20px 0;
+    line-height: 2.3;
+}
+.footer-top li{
+    list-style: none;
+    text-align: left;
+    color: #656b79;
+}
+.social img{
+    width: 50px;
+
+}
+
+.footer-top ul{
+    position: relative;
+    right: 2.2rem;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+.last{
+    position: absolute;
+    left: 66%;
+    top: 724%;
+
+
+}
+
+.last2{
+    position: absolute;
+    left: 77%;
+    top: 731%;
+}
+
+
+.leftlast{
+    right: 87%;
+
+    white-space: nowrap;
+    display: inline;
+}
+   
+
+
+
+
